@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1869c2c.css",
-    "main.js": "/static/js/main.4e3a8b90.js",
+    "main.css": "/static/css/main.4a7d41a2.css",
+    "main.js": "/static/js/main.d08ac21c.js",
     "static/media/phoneapp.avif": "/static/media/phoneapp.dce8986b1c0fed15f948.avif",
     "static/media/header_image.avif": "/static/media/header_image.ff69443aa67948966dea.avif",
     "static/media/indiaflag.png": "/static/media/indiaflag.1791e3c5ef964983a393.png",
@@ -32,11 +32,11 @@
     "static/media/downarrowthick.svg": "/static/media/downarrowthick.cf67d8f0612df280852547fa67f6b565.svg",
     "static/media/sidearrowthick.svg": "/static/media/sidearrowthick.d22b189ce1088ef3fba0250260980aa1.svg",
     "static/media/sidearrowthickred.svg": "/static/media/sidearrowthickred.4620e09028520473a56afc62a5e3a4db.svg",
-    "main.f1869c2c.css.map": "/static/css/main.f1869c2c.css.map",
-    "main.4e3a8b90.js.map": "/static/js/main.4e3a8b90.js.map"
+    "main.4a7d41a2.css.map": "/static/css/main.4a7d41a2.css.map",
+    "main.d08ac21c.js.map": "/static/js/main.d08ac21c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1869c2c.css",
-    "static/js/main.4e3a8b90.js"
+    "static/css/main.4a7d41a2.css",
+    "static/js/main.d08ac21c.js"
   ]
 }
