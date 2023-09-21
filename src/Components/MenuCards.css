@@ -1,0 +1,51 @@
+.CardContainer {
+  width: 100%;
+  color: black;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.Card {
+  width: 35.2rem;
+  height: 24rem;
+  overflow: hidden;
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+  border-radius: 1.2rem;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+}
+
+.Card img {
+  width: 35rem;
+  height: 19rem;
+  object-fit: cover;
+  border-radius: 1.2rem;
+}
+
+.Menu_TextContainer {
+  padding: 1rem 2rem;
+}
+
+.Menu_TextHeading {
+  text-align: left;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.2rem;
+}
+
+.Menu_TextSubHeading {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.Card_ImageContainer {
+  width: 100%;
+  height: 15.5rem;
+  overflow: hidden;
+}

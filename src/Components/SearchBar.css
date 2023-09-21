@@ -1,0 +1,74 @@
+.SearchBar {
+  background-color: white;
+  height: 54px;
+  border-radius: 0.5rem;
+  color: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.LocationSearchContainer {
+  width: 262px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 0.5rem;
+}
+
+.MapPin {
+  height: 20px;
+  width: 25px;
+  padding-left: 0.5rem;
+}
+
+.LocationText {
+  width: 211px;
+  height: 21px;
+  font-size: 1.4rem;
+  margin: 0px 0.5rem;
+  border: none;
+}
+
+.LocationText:focus {
+  outline: none;
+}
+
+.DownArrow {
+  width: 22px;
+  height: 12px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.SearchText {
+  width: 482px;
+  height: 52px;
+  float: right;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.SearchText:focus {
+  outline: none;
+}
+
+.SeparatorLine {
+  width: 0;
+  border: 0.05rem solid rgb(207, 207, 207);
+  height: 2rem;
+}
+
+.SearchIconContainer {
+  height: 54px;
+  width: 54px;
+  display: flex;
+}
+
+.SearchIcon {
+  margin: auto;
+  width: 18px;
+  height: 18px;
+}

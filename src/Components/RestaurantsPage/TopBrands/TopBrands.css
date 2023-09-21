@@ -1,0 +1,33 @@
+.top-brands {
+  padding-top: 30px;
+  font-size: 18px;
+  color: black;
+}
+
+.top-brands-cover {
+  height: 15rem;
+  width: 15rem;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
+  border-radius: 50%;
+}
+
+.top-brands-image {
+  object-fit: cover;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.BrandTitle {
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.BrandTime {
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+}

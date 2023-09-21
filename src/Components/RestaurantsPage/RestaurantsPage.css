@@ -1,0 +1,23 @@
+.RestaurantsPage__Container {
+  width: 58%;
+  padding: 9px 0;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.LocationLine {
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.RestaurantsPage__HeaderText {
+  font-size: 1.8rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.RestaurantsPage__LogoImage {
+  filter: invert(1);
+}

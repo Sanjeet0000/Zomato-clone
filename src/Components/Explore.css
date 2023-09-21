@@ -1,0 +1,109 @@
+.Explore {
+  color: black;
+  width: 100%;
+}
+
+.Explore_MainHeading {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 500;
+  color: rgb(28, 28, 28);
+  margin: 0px;
+}
+
+.Explore_Container {
+  min-height: 50px;
+  width: calc(100%-4rem);
+  padding: 1rem 2.5rem;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.Explore_Container:hover {
+  box-shadow: 0px 4px 8px rgba(28, 28, 28, 0.08);
+}
+
+.Explore_Container img {
+  height: 20px;
+  width: 20px;
+}
+
+.Explore_Title {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 1.5rem 0;
+}
+
+.Explore_SubTitle {
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+.Explore_TextContainer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.Explore_Text {
+  font-size: 1.65rem;
+  color: grey;
+  line-height: 2.3rem;
+  margin-right: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.DotSeparator {
+  display: inline-block;
+  background: rgb(130, 130, 130);
+  border-radius: 0.5rem;
+  width: 0.2rem;
+  height: 0.2rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.expanded {
+  display: none;
+}
+
+.Explore_Text_RestaurantCities ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+.Explore_Text_RestaurantCities ul li {
+  width: 20%;
+  color: grey;
+  padding-top: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.Explore_SeeMore {
+  font-weight: 700;
+  color: black !important;
+  position: relative;
+  width: max-content !important;
+}
+
+.Explore_SeeMore::before {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
