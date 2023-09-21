@@ -29,5 +29,5 @@
 
 ### Search by Cuisine
 
-![SearchByCuisine](https://github.com/Sanjeet0000/Zomato-clone/blob/main/src/Screenshots/SearchByRestaurantName.png?raw=true)
+![SearchByCuisine](https://github.com/Sanjeet0000/Zomato-clone/blob/main/src/Screenshots/SearchByCuisine.png?raw=true)
 
