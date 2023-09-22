@@ -38,9 +38,11 @@ function Home() {
         </div>
       </div>
       <section className="MainContent">
-        <MenuCards />
-        <Collections />
-        <PopularLocalities />
+        <Link to="/ncr" style={{ textDecoration: "none" }}>
+          <MenuCards />
+          <Collections />
+          <PopularLocalities />
+        </Link>
         <GetApp />
         <Explore />
       </section>
