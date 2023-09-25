@@ -28,8 +28,8 @@ function RestaurantsPage() {
 
   return (
     <>
+      <Header2 searchTerm={searchTerm} handleSearch={handleSearch} />
       <div className="RestaurantsPage__Container">
-        <Header2 searchTerm={searchTerm} handleSearch={handleSearch} />
         <div className="mt-5 pt-5">
           <p className="mt-5 LocationLine">
             Home / India / Delhi NCR / Central Delhi / Connaught Place

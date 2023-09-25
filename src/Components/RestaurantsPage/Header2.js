@@ -6,7 +6,7 @@ import "./Header2.css";
 function Header2(props) {
   return (
     <div className="Header__Container">
-      <header className="d-flex align-items-center w-100 bg-light">
+      <div className="d-flex align-items-center">
         <Link to="/">
           <div className="Header__LogoImage">
             <img src={TitleImage} alt="site logo" width="127px" height="27px" />
@@ -31,7 +31,7 @@ function Header2(props) {
           <span className="ps-5 ms-5 Header__Text">Log in</span>
           <span className="Header__Text">Sign up</span>
         </div>
-      </header>
+      </div>
     </div>
   );
 }
