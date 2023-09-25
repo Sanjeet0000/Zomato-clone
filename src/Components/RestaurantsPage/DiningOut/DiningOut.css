@@ -1,0 +1,11 @@
+.DiningOut__NotFound{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+}
+
+.DiningOut__NotFound p{
+    font-size: 16px;
+}

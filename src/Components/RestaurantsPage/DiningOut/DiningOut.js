@@ -3,6 +3,7 @@ import { dining } from "./data";
 import Collection from "../CollectionComponent/CollectionComponent";
 import Filters from "../Filters/Filters";
 import ExploreSection from "../ExploreSection/ExploreSection";
+import "./DiningOut.css";
 
 const diningFilters = [
   {
@@ -122,10 +123,15 @@ const DiningOut = (props) => {
         className="max-width cur-po"
         alt="member discount"
       />
+      {filteredRestaurants.length === 0 ? (
+        <div className="DiningOut__NotFound">
+          <p>No restaurants found.</p>
+        </div>
+      ) : (
       <ExploreSection
         restaurants={filteredRestaurants}
         collectionName="Trending dining restaurants in Connaught Place"
-      />
+      />)}
     </div>
   );
 };

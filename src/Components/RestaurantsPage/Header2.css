@@ -1,0 +1,20 @@
+.Header__Container{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    z-index: 20;
+    padding: 10px 0;
+    background-color: rgb(248, 248, 248);
+}
+
+
+.Header__Text {
+    font-size: 1.8rem;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  
+  .Header__LogoImage {
+    filter: invert(1);
+  }

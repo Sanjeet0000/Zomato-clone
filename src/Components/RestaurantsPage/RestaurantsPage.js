@@ -28,8 +28,14 @@ function RestaurantsPage() {
 
   return (
     <>
-      <div className="RestaurantsPage__Container m-auto">
+      <div className="RestaurantsPage__Container">
         <Header2 searchTerm={searchTerm} handleSearch={handleSearch} />
+        <div className="mt-5 pt-5">
+          <p className="mt-5 LocationLine">
+            Home / India / Delhi NCR / Central Delhi / Connaught Place
+            Restaurants
+          </p>
+        </div>
         <TabSelector setActiveTab={setActiveTab} activeTab={activeTab} />
         {renderContent(activeTab)}
         <Explore />

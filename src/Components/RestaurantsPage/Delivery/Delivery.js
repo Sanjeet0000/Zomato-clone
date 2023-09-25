@@ -6,6 +6,7 @@ import ExploreSection from "../ExploreSection/ExploreSection";
 import TopBrands from "../TopBrands/TopBrands";
 import DeliveryColletions from "./DeliveryCollection";
 import SettingIcon from "../../../assets/settings.svg";
+import "./Delivery.css";
 
 const deliveryFilters = [
   {
@@ -54,12 +55,18 @@ const Delivery = (props) => {
       </div>
       <DeliveryColletions />
       <TopBrands />
+      {filteredRestaurants.length === 0 ? (
+        <div className="Delivery__NotFound">
+          <p>No restaurants found.</p>
+        </div>
+      ) : (
       <ExploreSection
         restaurants={filteredRestaurants}
         collectionName="Delivery Restaurants in Connaught Place"
         searchTerm={props.searchTerm}
         handleSearch={props.handleSearch}
       />
+      )}
     </div>
   );
 };

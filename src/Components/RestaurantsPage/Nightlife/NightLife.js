@@ -3,6 +3,7 @@ import { nightLife } from "./data";
 import Collection from "../CollectionComponent/CollectionComponent";
 import ExploreSection from "../ExploreSection/ExploreSection";
 import Filters from "../Filters/Filters";
+import "./NightLife.css";
 
 const nightFilters = [
   {
@@ -94,10 +95,16 @@ const Nightlife = (props) => {
       <div className="max-width">
         <Filters filterList={nightFilters} />
       </div>
-      <ExploreSection
-        restaurants={filteredRestaurants}
-        collectionName="Nightlife Restaurants in Connaught Place"
-      />
+      {filteredRestaurants.length === 0 ? (
+        <div className="NightLife__NotFound">
+          <p>No restaurants found.</p>
+        </div>
+      ) : (
+        <ExploreSection
+          restaurants={filteredRestaurants}
+          collectionName="Nightlife Restaurants in Connaught Place"
+        />
+      )}
     </div>
   );
 };
