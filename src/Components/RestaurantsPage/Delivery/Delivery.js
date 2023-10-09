@@ -35,18 +35,27 @@ const deliveryFilters = [
 ];
 
 const Delivery = (props) => {
-  const filteredRestaurants = restaurants.filter((restaurant) => {
+  const filteredByKeywordRestaurants = restaurants.filter((restaurant) => {
     const restaurantNameIncludesSearchTerm = restaurant.info.name
       .toLowerCase()
-      .includes(props.searchTerm.toLowerCase());
+      .includes(props.keywordSearchTerm.toLowerCase());
 
     const cuisineNameIncludesSearchTerm = restaurant.info.cuisine.some(
       (cuisine) =>
-        cuisine.name.toLowerCase().includes(props.searchTerm.toLowerCase())
+        cuisine.name
+          .toLowerCase()
+          .includes(props.keywordSearchTerm.toLowerCase())
     );
-
     return restaurantNameIncludesSearchTerm || cuisineNameIncludesSearchTerm;
   });
+
+  const filteredByLocationRestaurants = filteredByKeywordRestaurants.filter(
+    (restaurant) => {
+      return restaurant.info.location
+        .toLowerCase()
+        .includes(props.locationSearchTerm.toLowerCase());
+    }
+  );
 
   return (
     <div>
@@ -55,17 +64,15 @@ const Delivery = (props) => {
       </div>
       <DeliveryColletions />
       <TopBrands />
-      {filteredRestaurants.length === 0 ? (
+      {filteredByLocationRestaurants.length === 0 ? (
         <div className="Delivery__NotFound">
           <p>No restaurants found.</p>
         </div>
       ) : (
-      <ExploreSection
-        restaurants={filteredRestaurants}
-        collectionName="Delivery Restaurants in Connaught Place"
-        searchTerm={props.searchTerm}
-        handleSearch={props.handleSearch}
-      />
+        <ExploreSection
+          restaurants={filteredByLocationRestaurants}
+          collectionName="Delivery Restaurants in Connaught Place"
+        />
       )}
     </div>
   );

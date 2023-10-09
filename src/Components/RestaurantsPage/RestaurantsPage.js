@@ -10,25 +10,55 @@ import NightLife from "./Nightlife/NightLife";
 
 function RestaurantsPage() {
   const [activeTab, setActiveTab] = useState("Delivery");
-  const [searchTerm, setSearchTerm] = useState("");
+  const [keywordSearchTerm, setKeywordSearchTerm] = useState("");
+  const [locationSearchTerm, setLocationSearchTerm] = useState("");
 
-  const handleSearch = (event) => {
-    setSearchTerm(event.target.value);
+  const handleKeywordSearch = (event) => {
+    setKeywordSearchTerm(event.target.value);
+  };
+  const handleLocationSearch = (event) => {
+    setLocationSearchTerm(event.target.value);
   };
 
   const renderContent = (tab) => {
     if (tab === "Delivery") {
-      return <Delivery searchTerm={searchTerm} handleSearch={handleSearch} />;
+      return (
+        <Delivery
+          keywordSearchTerm={keywordSearchTerm}
+          handleKeywordSearch={handleKeywordSearch}
+          locationSearchTerm={locationSearchTerm}
+          handleLocationSearch={handleLocationSearch}
+        />
+      );
     } else if (tab === "Dining Out") {
-      return <DiningOut searchTerm={searchTerm} handleSearch={handleSearch} />;
+      return (
+        <DiningOut
+          keywordSearchTerm={keywordSearchTerm}
+          handleKeywordSearch={handleKeywordSearch}
+          locationSearchTerm={locationSearchTerm}
+          handleLocationSearch={handleLocationSearch}
+        />
+      );
     } else if (tab === "Nightlife") {
-      return <NightLife searchTerm={searchTerm} handleSearch={handleSearch} />;
+      return (
+        <NightLife
+          keywordSearchTerm={keywordSearchTerm}
+          handleKeywordSearch={handleKeywordSearch}
+          locationSearchTerm={locationSearchTerm}
+          handleLocationSearch={handleLocationSearch}
+        />
+      );
     }
   };
 
   return (
     <>
-      <Header2 searchTerm={searchTerm} handleSearch={handleSearch} />
+      <Header2
+        keywordSearchTerm={keywordSearchTerm}
+        handleKeywordSearch={handleKeywordSearch}
+        locationSearchTerm={locationSearchTerm}
+          handleLocationSearch={handleLocationSearch}
+      />
       <div className="RestaurantsPage__Container">
         <div className="mt-5 pt-5">
           <p className="mt-5 LocationLine">

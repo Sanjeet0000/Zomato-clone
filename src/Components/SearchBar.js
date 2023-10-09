@@ -11,6 +11,8 @@ function SearchBar(props) {
           className="LocationText"
           placeholder="Connaught Place, New Delhi"
           name="Location Text"
+          value={props.locationSearchTerm}
+          onChange={props.handleLocationSearch}
         />
         <img src={DownArrow} alt="Down arrow" className="DownArrow" />
       </div>
@@ -22,8 +24,8 @@ function SearchBar(props) {
         className="SearchText"
         placeholder="Search for restaurant, cuisine or a dish"
         name="Search Text"
-        value={props.searchTerm}
-        onChange={props.handleSearch}
+        value={props.keywordSearchTerm}
+        onChange={props.handleKeywordSearch}
       />
     </div>
   );

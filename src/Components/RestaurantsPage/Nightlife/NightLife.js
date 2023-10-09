@@ -76,18 +76,28 @@ const collectionList = [
 ];
 
 const Nightlife = (props) => {
-  const filteredRestaurants = nightLife.filter((restaurant) => {
+  const filteredByKeywordRestaurants = nightLife.filter((restaurant) => {
     const restaurantNameIncludesSearchTerm = restaurant.info.name
       .toLowerCase()
-      .includes(props.searchTerm.toLowerCase());
+      .includes(props.keywordSearchTerm.toLowerCase());
 
     const cuisineNameIncludesSearchTerm = restaurant.info.cuisine.some(
       (cuisine) =>
-        cuisine.name.toLowerCase().includes(props.searchTerm.toLowerCase())
+        cuisine.name
+          .toLowerCase()
+          .includes(props.keywordSearchTerm.toLowerCase())
     );
 
     return restaurantNameIncludesSearchTerm || cuisineNameIncludesSearchTerm;
   });
+
+  const filteredByLocationRestaurants = filteredByKeywordRestaurants.filter(
+    (restaurant) => {
+      return restaurant.info.location
+        .toLowerCase()
+        .includes(props.locationSearchTerm.toLowerCase());
+    }
+  );
 
   return (
     <div>
@@ -95,13 +105,13 @@ const Nightlife = (props) => {
       <div className="max-width">
         <Filters filterList={nightFilters} />
       </div>
-      {filteredRestaurants.length === 0 ? (
+      {filteredByLocationRestaurants.length === 0 ? (
         <div className="NightLife__NotFound">
           <p>No restaurants found.</p>
         </div>
       ) : (
         <ExploreSection
-          restaurants={filteredRestaurants}
+          restaurants={filteredByLocationRestaurants}
           collectionName="Nightlife Restaurants in Connaught Place"
         />
       )}

@@ -4,6 +4,7 @@ export const nightLife = [
     info: {
       resId: 19463530,
       name: "The Beer Cafe Biggie",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/0/19463530/575a8965aeb1ff7d1b926438eee25830_featured_v2.jpg",
         urlWithParams:
@@ -168,6 +169,7 @@ export const nightLife = [
     info: {
       resId: 19851199,
       name: "Black Brew House",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/9/19851199/8e3d34b52ad67c45b0ed6bb43a376bc2_featured_v2.jpg",
         urlWithParams:
@@ -288,6 +290,7 @@ export const nightLife = [
     info: {
       resId: 19058715,
       name: "Be The Beer Season 2",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/19058715/09b91edb2219ae78dcfbcfa7cbd3460a_o2_featured_v2.jpg",
         urlWithParams:
@@ -445,6 +448,7 @@ export const nightLife = [
     info: {
       resId: 801203,
       name: "On High - Hotel Silvete",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/3/801203/a473aec343876d74d7eff94322efc877_featured_v2.jpg",
         urlWithParams:
@@ -608,6 +612,7 @@ export const nightLife = [
     info: {
       resId: 801116,
       name: "Jannat-Dayal Paradise",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/6/801116/78ac89e39e31b18b6209d5fce93a6d02_featured_v2.jpg",
         urlWithParams:
@@ -751,6 +756,7 @@ export const nightLife = [
     info: {
       resId: 19844315,
       name: "BohoBar",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/19844315/fa8ff31f85c4a807759e004c7b9ae59f_featured_v2.jpg",
         urlWithParams:
@@ -877,6 +883,7 @@ export const nightLife = [
     info: {
       resId: 801247,
       name: "Royal Cafe",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/7/801247/114c3e1f87e06d7ae8410867a6693f6f_featured_v2.jpg",
         urlWithParams:
@@ -1032,6 +1039,7 @@ export const nightLife = [
     info: {
       resId: 19870055,
       name: "Sky Glass Brewing Co.",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/19870055/11028dcc5011e661b28be4a2c36bb911_featured_v2.jpg",
         urlWithParams:
@@ -1151,6 +1159,7 @@ export const nightLife = [
     info: {
       resId: 801640,
       name: "Underdoggs Bar & Grill",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/0/801640/a57b5379c70a5b7dec89df436c6f152d_featured_v2.jpg",
         urlWithParams:
@@ -1280,6 +1289,7 @@ export const nightLife = [
     info: {
       resId: 18625751,
       name: "Elev8 Book Cafe - Hotel Levana Suites",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/1/18625751/98da140e7e6ca0f91c0581a52b6898e2_featured_v2.jpg",
         urlWithParams:
@@ -1421,6 +1431,7 @@ export const nightLife = [
     info: {
       resId: 18868910,
       name: "Bombay Brasserie",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/0/18868910/bcb34c8eec95b3d3bff8c0e7338cc949_featured_v2.jpg",
         urlWithParams:
@@ -1545,6 +1556,7 @@ export const nightLife = [
     info: {
       resId: 18159999,
       name: "Sky Bar - Renaissance Lucknow Hotel",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/9/18159999/33b00192ce3104a2c6bba27710055025_featured_v2.jpg",
         urlWithParams:
@@ -1682,6 +1694,7 @@ export const nightLife = [
     info: {
       resId: 18550429,
       name: "Grand Cabana - Hotel Savvy Grand",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/9/18550429/9c8fffbf4b060fc5d3d60f92e7b8fb26_featured_v2.jpg",
         urlWithParams:
@@ -1799,6 +1812,7 @@ export const nightLife = [
     info: {
       resId: 18553847,
       name: "EDGE - Rooftop Bar & Lounge",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/7/18553847/056178323b64589ad21b995dbb153787_featured_v2.jpg",
         urlWithParams:
@@ -1924,6 +1938,7 @@ export const nightLife = [
     info: {
       resId: 801195,
       name: "Cappuccino Blast",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/801195/c13c76338537c2ed3bfdf656aa0c7f43_featured_v2.jpg",
         urlWithParams:
@@ -2083,6 +2098,7 @@ export const nightLife = [
     info: {
       resId: 19091558,
       name: "The Beer Cafe",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/8/19091558/3e8946bae5d6458ab9b07d4f2a1dc78a_featured_v2.jpg",
         urlWithParams:
@@ -2225,6 +2241,7 @@ export const nightLife = [
     info: {
       resId: 800273,
       name: "Urban Terrace",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/3/800273/a32b3b0726fa49b7dfd7ec4fbdd36ec4_featured_v2.jpg",
         urlWithParams:
@@ -2361,6 +2378,7 @@ export const nightLife = [
     info: {
       resId: 19007115,
       name: "The Vault Disc And Lounge",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/19007115/f6dc83bb34f957c23d4ab9886bf9c303_featured_v2.jpg",
         urlWithParams:
@@ -2509,6 +2527,7 @@ export const nightLife = [
     info: {
       resId: 801693,
       name: "Bar Bar - Hotel India Awadh",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/3/801693/767aa3f776cd94b978227523eac17d59_featured_v2.jpg",
         urlWithParams:
@@ -2656,6 +2675,7 @@ export const nightLife = [
     info: {
       resId: 18610092,
       name: "Ttamaasha Bistro Bar",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/2/18610092/6a8b695bade8d45687cbd7e30ebb6145_featured_v2.jpg",
         urlWithParams:
@@ -2793,6 +2813,7 @@ export const nightLife = [
     info: {
       resId: 800603,
       name: "Theka - The Piccadily",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/3/800603/3090e78a5858e43a2722566f975a9819_featured_v2.jpg",
         urlWithParams:
@@ -2919,6 +2940,7 @@ export const nightLife = [
     info: {
       resId: 18574816,
       name: "Orchid - Fortune Park BBD",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/6/18574816/7b35c85922598324498c7bfe703258b1_featured_v2.jpg",
         urlWithParams:
@@ -3074,6 +3096,7 @@ export const nightLife = [
     info: {
       resId: 800932,
       name: "Cheer Peer - The Metropolitan Club",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/2/800932/c484ae4d2d9a5b339fbe67d668fe29a7_featured_v2.jpg",
         urlWithParams:
@@ -3218,6 +3241,7 @@ export const nightLife = [
     info: {
       resId: 800922,
       name: "EOS Bar & Bistro- Hotel Levana",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/2/800922/6238f47ada44afffa00bd51a9830bb0d_featured_v2.jpg",
         urlWithParams:

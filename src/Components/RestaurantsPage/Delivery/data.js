@@ -4,6 +4,7 @@ export const restaurants = [
     info: {
       resId: 19879345,
       name: "KFC",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/6/800126/9410759d611db9c62c3acc23c1f27e06_o2_featured_v2.jpg",
       },
@@ -161,6 +162,7 @@ export const restaurants = [
     info: {
       resId: 800228,
       name: "Marksmen",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/8/800228/b4975f178b8c9264498a65735f5d4263_o2_featured_v2.jpg",
       },
@@ -331,6 +333,7 @@ export const restaurants = [
     info: {
       resId: 800260,
       name: "McDonald's",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/0/800260/0094c2b5485c4c2f52c931306442269b_o2_featured_v2.jpg",
       },
@@ -489,6 +492,7 @@ export const restaurants = [
     info: {
       resId: 800561,
       name: "Mahesh's Mansarovar",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/1/800561/2b381cd36baba26fd2ec309cee7f20f6_o2_featured_v2.jpg",
       },
@@ -658,6 +662,7 @@ export const restaurants = [
     info: {
       resId: 800486,
       name: "Moti Mahal",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/6/800486/ebce2cecb33af555c7c4405ae044c663_o2_featured_v2.jpg",
       },
@@ -840,6 +845,7 @@ export const restaurants = [
     info: {
       resId: 800623,
       name: "Alamgir Hotel",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/3/800623/db2af0909d9d47da97d29378b3d36ebc_o2_featured_v2.jpg",
       },
@@ -985,6 +991,7 @@ export const restaurants = [
     info: {
       resId: 800301,
       name: "Aadab-e-Dastarkhwan",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/1/800301/207ed2ffee3ba2300464c26b15ba1b0d_o2_featured_v2.jpg",
       },
@@ -1148,6 +1155,7 @@ export const restaurants = [
     info: {
       resId: 18877935,
       name: "La Pino'z Pizza",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/0/18798800/7c9f7c11939dcfdf4602edaa44329167_o2_featured_v2.jpg",
       },
@@ -1305,6 +1313,7 @@ export const restaurants = [
     info: {
       resId: 19270356,
       name: "Burger King",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/3/19165593/9f2f843523d0e8b9ecd9ee9ee32c1c46_o2_featured_v2.jpg",
       },
@@ -1462,6 +1471,7 @@ export const restaurants = [
     info: {
       resId: 800279,
       name: "Grandson of Tunday Kababi",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/9/800279/8abdada7f34c0384e98473c4092c6076_o2_featured_v2.jpg",
       },
@@ -1619,6 +1629,7 @@ export const restaurants = [
     info: {
       resId: 800894,
       name: "Mubeen's",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/4/800894/3a0714eeafd6a9d526ebe0262cfec1f1_o2_featured_v2.jpg",
       },
@@ -1764,6 +1775,7 @@ export const restaurants = [
     info: {
       resId: 18890035,
       name: "UBQ By Barbeque Nation",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/18890035/2d2b03b528e425b5250c2a4f0c6a27c3_o2_featured_v2.jpg",
       },
@@ -1927,6 +1939,7 @@ export const restaurants = [
     info: {
       resId: 19181785,
       name: "Garden Bakery",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/19181785/b23c4294327431652c8124a5f56b9120_o2_featured_v2.jpg",
       },
@@ -2121,6 +2134,7 @@ export const restaurants = [
     info: {
       resId: 18923813,
       name: "WOW! Momo",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/3/18689923/cc7cfcafbaa312b8e003ab60181246b0_o2_featured_v2.jpg",
       },
@@ -2278,6 +2292,7 @@ export const restaurants = [
     info: {
       resId: 18941050,
       name: "Shri Surendra Bhojanalya",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/0/18941050/1b78d5497525ecd1a059dc79db3e1726_o2_featured_v2.jpg",
       },
@@ -2443,6 +2458,7 @@ export const restaurants = [
     info: {
       resId: 800424,
       name: "Durgma Restaurant",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/4/800424/b55b1bb8a4ed117708e384ce934b3ac0_o2_featured_v2.jpg",
       },
@@ -2588,6 +2604,7 @@ export const restaurants = [
     info: {
       resId: 801203,
       name: "On High - Hotel Silvete",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/3/801203/df51bd1dff3997ad6f9a0de0365aeb0c_o2_featured_v2.jpg",
       },
@@ -2776,6 +2793,7 @@ export const restaurants = [
     info: {
       resId: 18893853,
       name: "The Belgian Waffle Co.",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/2/18639812/cfbda35382090ddbf5128a946c235f74_o2_featured_v2.jpg",
       },
@@ -2927,6 +2945,7 @@ export const restaurants = [
     info: {
       resId: 19316179,
       name: "NIC - Natural Ice Creams",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/5/19316175/022bf8e7feae2e092fa615e50798353b_o2_featured_v2.jpg",
       },
@@ -3086,6 +3105,7 @@ export const restaurants = [
     info: {
       resId: 800151,
       name: "The Mughal's Dastarkhwan",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/1/800151/35c6b1eddbc2d50d830758151102009b_o2_featured_v2.jpg",
       },
@@ -3249,6 +3269,7 @@ export const restaurants = [
     info: {
       resId: 800600,
       name: "Wahid Biryani",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/0/800600/1481315fbf2acdf26c8d3ca281140e35_o2_featured_v2.jpg",
       },
@@ -3413,6 +3434,7 @@ export const restaurants = [
     info: {
       resId: 800242,
       name: "Aryan Family's Delight",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/2/800242/29d309820d18d91dc82b41e23d4cdf01_o2_featured_v2.jpg",
       },
@@ -3601,6 +3623,7 @@ export const restaurants = [
     info: {
       resId: 19663876,
       name: "Dine Out City ( DOC)",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/6/19663876/40902c4d26bb33451173484826286932_o2_featured_v2.jpg",
       },
@@ -3795,6 +3818,7 @@ export const restaurants = [
     info: {
       resId: 18762498,
       name: "Mughlai The Taste",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/8/18762498/2c2eb6521957d4e16b08cb9f6f207462_o2_featured_v2.jpg",
       },

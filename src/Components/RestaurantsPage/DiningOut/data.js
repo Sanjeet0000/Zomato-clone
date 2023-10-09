@@ -4,6 +4,7 @@ export const dining = [
     info: {
       resId: 19657198,
       name: "Tanatan",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/8/19657198/2310098025cbe62f00295c99f65da028_featured_v2.jpg",
         urlWithParams:
@@ -134,6 +135,7 @@ export const dining = [
     info: {
       resId: 18560184,
       name: "The Terrace",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/4/18560184/8d923ed5ccb999ee0444edafa2c55d8e_featured_v2.jpg",
         urlWithParams:
@@ -258,6 +260,7 @@ export const dining = [
     info: {
       resId: 800089,
       name: "Barbeque Nation",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/9/800089/4b5ab549625bf83b4d2c377881a93412_featured_v2.jpg",
         urlWithParams:
@@ -418,6 +421,7 @@ export const dining = [
     info: {
       resId: 19678663,
       name: "The Big Grill",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/3/19678663/0db33245c14222532d95f0e40bb6b156_featured_v2.jpg",
         urlWithParams:
@@ -525,6 +529,7 @@ export const dining = [
     info: {
       resId: 800969,
       name: "Bajpayee Kachodi Bhandar",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/9/800969/666de2d320ac84efd79e884f578cd31c_featured_v2.jpg",
         urlWithParams:
@@ -649,6 +654,7 @@ export const dining = [
     info: {
       resId: 19021510,
       name: "The G.T. Road",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/0/19021510/095926533d3dd10cb44c48f238e7bb48_featured_v2.jpg",
         urlWithParams:
@@ -788,6 +794,7 @@ export const dining = [
     info: {
       resId: 18639593,
       name: "The Flying Saucer Cafe",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/3/18639593/b44feccace075dc9567fa73fd3424e77_featured_v2.jpg",
         urlWithParams:
@@ -932,6 +939,7 @@ export const dining = [
     info: {
       resId: 18611147,
       name: "Bigg Daddy",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/7/18611147/dca25e7029d893a2dc9ef908befd4856_featured_v2.jpg",
         urlWithParams:
@@ -1088,6 +1096,7 @@ export const dining = [
     info: {
       resId: 19288591,
       name: "Woodpecker",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/1/19288591/9bdee00da6a50f0dc400ad58f1a423b9_featured_v2.jpg",
         urlWithParams:
@@ -1230,6 +1239,7 @@ export const dining = [
     info: {
       resId: 800074,
       name: "Chhappan Bhog",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/4/800074/8a0789fe47d9eabc35643911a0015707_featured_v2.jpg",
         urlWithParams:
@@ -1353,6 +1363,7 @@ export const dining = [
     info: {
       resId: 801269,
       name: "Vintage Machine",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/9/801269/cebfdb033a0a31eceb4e4f2ad54af68a_featured_v2.jpg",
         urlWithParams:
@@ -1488,6 +1499,7 @@ export const dining = [
     info: {
       resId: 18971277,
       name: "Cafe Repertwahr",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/7/18971277/a7523dfa26a7d79b13f597470068695d_featured_v2.jpg",
         urlWithParams:
@@ -1659,6 +1671,7 @@ export const dining = [
     info: {
       resId: 800120,
       name: "Royal Cafe - Royal Inn",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/0/800120/2911d7005a27e8fd3dd1352f55e3221f_featured_v2.jpg",
         urlWithParams:
@@ -1815,6 +1828,7 @@ export const dining = [
     info: {
       resId: 800326,
       name: "Royal Sky",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/6/800326/58780939ee98196021a081d74b7266ec_featured_v2.jpg",
         urlWithParams:
@@ -1953,6 +1967,7 @@ export const dining = [
     info: {
       resId: 18576127,
       name: "Zync Bar & Lounge",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/7/18576127/43918fc88e5ec3106d710d164e1f54d1_featured_v2.jpg",
         urlWithParams:
@@ -2098,6 +2113,7 @@ export const dining = [
     info: {
       resId: 18660085,
       name: "Munick Bistro & Bar",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/18660085/af34bf15a659b46f729589584dcf378e_featured_v2.jpg",
         urlWithParams:
@@ -2254,6 +2270,7 @@ export const dining = [
     info: {
       resId: 19642697,
       name: "Firefly",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/7/19642697/ae328d5ca49ac1490a672bcc2a9b0cec_featured_v2.jpg",
         urlWithParams:
@@ -2404,6 +2421,7 @@ export const dining = [
     info: {
       resId: 19425565,
       name: "Goku",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/19425565/df53811bb9fc328d3d118e3a1e7df129_featured_v2.jpg",
         urlWithParams:
@@ -2535,6 +2553,7 @@ export const dining = [
     info: {
       resId: 19612752,
       name: "Vintage Machine - Kitchen + Cocktail Bar",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/2/19612752/aafed1313d00f68fced26dbf5b97ce58_featured_v2.jpg",
         urlWithParams:
@@ -2697,6 +2716,7 @@ export const dining = [
     info: {
       resId: 18439027,
       name: "Skyhilton",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/7/18439027/d05be9594f3a4208b0947d86da5cd275_featured_v2.jpg",
         urlWithParams:
@@ -2853,6 +2873,7 @@ export const dining = [
     info: {
       resId: 19415265,
       name: "Home Sweet Home",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/19415265/359aee412596fe7259a491fe460beb91_featured_v2.jpg",
         urlWithParams:
@@ -3009,6 +3030,7 @@ export const dining = [
     info: {
       resId: 18591136,
       name: "The Urban Dhaba",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/6/18591136/871b8d0d6a8ceb82b5c1bcd94a12ddbf_featured_v2.jpg",
         urlWithParams:
@@ -3135,6 +3157,7 @@ export const dining = [
     info: {
       resId: 18970077,
       name: "The Hazelnut Factory",
+      location: "ABC",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/7/18970077/19544c25ff84152250d8a1bbf5bf3be6_featured_v2.jpg",
         urlWithParams:
@@ -3294,6 +3317,7 @@ export const dining = [
     info: {
       resId: 19463530,
       name: "The Beer Cafe Biggie",
+      location: "XYZ",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/0/19463530/575a8965aeb1ff7d1b926438eee25830_featured_v2.jpg",
         urlWithParams:

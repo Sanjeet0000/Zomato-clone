@@ -3,6 +3,7 @@ import "./ExploreCard.css";
 
 const ExploreCard = ({ restaurant, i }) => {
   const name = restaurant?.info?.name ?? "";
+  const location = restaurant?.info?.location;
   const coverImg =
     restaurant?.info?.image?.url ?? restaurant?.info?.o2FeaturedImage?.url;
   const deliveryTime = restaurant?.order?.deliveryTime;
@@ -56,6 +57,7 @@ const ExploreCard = ({ restaurant, i }) => {
         )}
         {approxPrice && <div className="res-price">{approxPrice}</div>}
       </div>
+      <div className="location-text">Location: {location}</div>
       {bottomContainers.length > 0 && (
         <div>
           <div className="card-separator"></div>

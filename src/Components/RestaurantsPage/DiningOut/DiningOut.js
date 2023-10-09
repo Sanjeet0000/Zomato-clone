@@ -99,18 +99,28 @@ const collectionList = [
 ];
 
 const DiningOut = (props) => {
-  const filteredRestaurants = dining.filter((restaurant) => {
+  const filteredByKeywordRestaurants = dining.filter((restaurant) => {
     const restaurantNameIncludesSearchTerm = restaurant.info.name
       .toLowerCase()
-      .includes(props.searchTerm.toLowerCase());
+      .includes(props.keywordSearchTerm.toLowerCase());
 
     const cuisineNameIncludesSearchTerm = restaurant.info.cuisine.some(
       (cuisine) =>
-        cuisine.name.toLowerCase().includes(props.searchTerm.toLowerCase())
+        cuisine.name
+          .toLowerCase()
+          .includes(props.keywordSearchTerm.toLowerCase())
     );
 
     return restaurantNameIncludesSearchTerm || cuisineNameIncludesSearchTerm;
   });
+
+  const filteredByLocationRestaurants = filteredByKeywordRestaurants.filter(
+    (restaurant) => {
+      return restaurant.info.location
+        .toLowerCase()
+        .includes(props.locationSearchTerm.toLowerCase());
+    }
+  );
 
   return (
     <div>
@@ -123,15 +133,16 @@ const DiningOut = (props) => {
         className="max-width cur-po"
         alt="member discount"
       />
-      {filteredRestaurants.length === 0 ? (
+      {filteredByLocationRestaurants.length === 0 ? (
         <div className="DiningOut__NotFound">
           <p>No restaurants found.</p>
         </div>
       ) : (
-      <ExploreSection
-        restaurants={filteredRestaurants}
-        collectionName="Trending dining restaurants in Connaught Place"
-      />)}
+        <ExploreSection
+          restaurants={filteredByLocationRestaurants}
+          collectionName="Trending dining restaurants in Connaught Place"
+        />
+      )}
     </div>
   );
 };

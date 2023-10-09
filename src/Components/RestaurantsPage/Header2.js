@@ -24,8 +24,10 @@ function Header2(props) {
             }}
           >
             <SearchBar
-              searchTerm={props.searchTerm}
-              handleSearch={props.handleSearch}
+            keywordSearchTerm={props.keywordSearchTerm}
+            handleKeywordSearch={props.handleKeywordSearch}
+            locationSearchTerm={props.locationSearchTerm}
+            handleLocationSearch={props.handleLocationSearch}
             />
           </div>
           <span className="ps-5 ms-5 Header__Text">Log in</span>
